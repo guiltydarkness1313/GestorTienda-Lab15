@@ -67,8 +67,8 @@
         <div class="col-lg-9">
             <div style="margin-top: 20px;"></div>
             <div class="container row">
-                <div class="card h-100 center">
-                    <a href="#"><img class="card-img-top" src="/images/{{$productos->imagen}}" alt=""></a>
+                <div class="card mb-3 center">
+                    <a href="#"><img class="card-img-top" src="/images/{{$productos->imagen}}"  alt=""></a>
                     <div class="card-body">
                         <h4 class="card-title">
                             <a href="#">{{$productos->nombre}}</a>
